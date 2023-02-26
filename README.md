@@ -34,8 +34,8 @@ in progress...
 
 ### Links
 
-- Solution URL: [My solution URL here](#)
-- Live Site URL: [My live site URL here](#)
+- Solution URL: [My solution URL here](https://github.com/karolinakowalczyk/Tip-calculator/)
+- Live Site URL: [My live site URL here](https://karolinakowalczyk.github.io/Tip-calculator/)
 
 ## My process
 
