@@ -1,0 +1,109 @@
+:root {
+    /* App Theme / Brand */
+    --primary: hsl(172, 67%, 45%);
+    --secondary: hsl(183, 100%, 15%);
+    --dark-gray: hsl(186, 14%, 43%);
+    --light-gray: hsl(185, 41%, 84%);
+    --very-light-gray: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-gray);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#second-part {
+    display: block;
+
+}
+
+#app-title {
+    color: var(--secondary);
+    padding-bottom: 4rem;
+}
+
+#main-box {
+    display: flex;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#calculation-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    padding: 1.5rem;
+    width: 50%;
+}
+
+#summary-box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 50%;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.summary-container p span {
+    display: flex;
+}
+
+.price-label {
+    color: var(--white);
+    font-size: 0.5em;
+    margin-right: 5rem;
+}
+
+.price-value {
+    color: var(--primary);
+    font-size: 2em;
+    margin-top: -0.4em;
+}
+
+#summary-box button {
+    margin-top: auto;
+    font-size: 0.75em;
+    padding: 0.5em;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.25rem;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+#summary-box button:hover {
+    background-color: var(--light-gray);
+    cursor: pointer;
+}
+
+/* padding: top right bottom left */
