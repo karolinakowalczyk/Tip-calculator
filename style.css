@@ -102,6 +102,12 @@ body {
     margin-top: -0.4em;
 }
 
+.price-value-dolar {
+    color: var(--primary);
+    font-size: 2em;
+    margin-top: -0.4em;
+}
+
 #summary-box button {
     margin-top: auto;
     font-size: 0.75em;
@@ -167,6 +173,10 @@ body {
 
 #custom-tip:focus {
     outline-color: var(--primary);
+}
+
+.selected-box {
+    background-color: var(--primary);
 }
 
 /* padding: top right bottom left */

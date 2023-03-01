@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
 </head>
 
 <body>
@@ -29,19 +30,20 @@
         <div class="tip-el tip-div">15%</div>
         <div class="tip-el tip-div">25%</div>
         <div class="tip-el tip-div">50%</div>
-        <input type="number" class="tip-el" id="custom-tip" name="customTip" placeholder="custom">
+        <input type="number" class="tip-el tip-input" id="custom-tip" name="customTip" placeholder="custom">
       </div>
       <p>Number of people:</p>
       <input type="number" class="icon-input" id="ipeoplenumber" name="ipeoplenumber">
+      <p id="warning"></p>
     </div>
     <div id="summary-box">
       <div class="summary-container">
         <p class="price-label">Tip amount <span>/ person:</span></p>
-        <p class="price-value">$</p>
+        <p id="tip-amount" class="price-value"></p><span class="price-value-dolar">$</span>
       </div>
       <div class="summary-container">
         <p class="price-label">Total <span>/ person:</span></p>
-        <p class="price-value">$</p>
+        <p id="total-amount" class="price-value"></p><span class="price-value-dolar">$</span>
       </div>
       <button>RESET</button>
     </div>
