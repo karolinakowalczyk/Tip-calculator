@@ -21,16 +21,18 @@
   <div id="main-box">
     <div id="calculation-box">
       <p>Bill:</p>
-      <input type="text" id="ibill" name="ibill">
+      <input type="number" class="icon-input" id="ibill" name="ibill">
       <p>Select Tip %:</p>
-      <div>5%</div>
-      <div>10%</div>
-      <div>15%</div>
-      <div>25%</div>
-      <div>50%</div>
-      <div><input type="text" id="customTip" name="customTip" placeholder="custom"></div>
+      <div id="tip-container">
+        <div class="tip-el tip-div">5%</div>
+        <div class="tip-el tip-div">10%</div>
+        <div class="tip-el tip-div">15%</div>
+        <div class="tip-el tip-div">25%</div>
+        <div class="tip-el tip-div">50%</div>
+        <input type="number" class="tip-el" id="custom-tip" name="customTip" placeholder="custom">
+      </div>
       <p>Number of people:</p>
-      <input type="text" id="ipeoplenumber" name="ipeoplenumber">
+      <input type="number" class="icon-input" id="ipeoplenumber" name="ipeoplenumber">
     </div>
     <div id="summary-box">
       <div class="summary-container">
